@@ -42,5 +42,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     Once you start the server by using http://localhost:3000/api
 
 ###### Environment Variables
-    $ SQL_PASSWORD=password
-    $ DB_NAME=test-employee-db
+    $  DB_HOST=localhost
+    $  DB_USER=root
+    $  DB_PASSWORD=password
+    $  DB_NAME=test-employee-db
