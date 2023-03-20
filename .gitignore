@@ -2,6 +2,9 @@
 /dist
 /node_modules
 
+# dotenv environment variable file
+.env
+
 # Logs
 logs
 *.log

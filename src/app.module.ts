@@ -11,8 +11,8 @@ import { EmployeeModule } from './employee/employee.module';
       type: 'mysql',
       host: 'localhost',
       username: 'root',
-      password: 'password',
-      database: 'test-employee-db',
+      password: process.env.SQL_PASSWORD || 'password',
+      database: process.env.DB_NAME || 'test-employee-db',
       entities: [
         EmployeeEntity,
       ],
